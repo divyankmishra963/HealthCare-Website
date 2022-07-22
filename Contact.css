@@ -169,3 +169,10 @@ button{
     margin-left: 150px;
     color: #337ac7;
 }
+
+a{
+    text-decoration: none;
+}
+.container>div:nth-child(2)>div>a{
+    color: white;
+}
