@@ -1,0 +1,130 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.container{
+    width: 99.8%;
+    height: auto;
+    border: none;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 5px;
+    background-color: #2874f0;
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+
+.container>div{
+    width: 40%;
+    height: 100%;
+   border: none;
+    
+}
+.container>div:nth-child(1){
+    display: flex;
+    justify-content: space-around;
+}
+.container>div:nth-child(1)>div{
+    width: 40%;
+    height: 100%;  
+}
+.container>div:nth-child(1)>div:nth-child(1)>p{
+    margin-left: 10px;
+    margin-top: 7px;
+    font-size: 19px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff865;
+}
+.container>div:nth-child(1)>div:nth-child(2){
+    width: 90%;
+    height: 100%;
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 4px;
+   
+}
+.container>div:nth-child(1)>div:nth-child(2)>p:nth-child(1){
+    margin-top: 4px;
+    margin-bottom: 7px;
+    margin-left: 7px;
+    font-size: 20px;
+    color: #9999a6;
+}
+.container>div:nth-child(1)>div:nth-child(2)>p:nth-child(3){
+    font-size: 20px;
+    margin-top: 4px;
+    margin-bottom: 7px;
+    margin-right: 7px;
+    color: #6e3333;
+}
+.container>div:nth-child(1)>div:nth-child(2)>p:nth-child(2){
+    font-size: 30px;
+    color: #cccccc;
+    margin-left: 220px;
+}
+.container>div:nth-child(2)>div{
+    width: 60%;
+    height: 100%;
+    border: none;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    margin-top: 6px;
+    color: white;
+    margin-left: 170px;
+}
+
+.container+div{
+    width: 88%;
+    height: auto;
+    border: none;
+    margin: auto;
+    margin-top: 40px;
+   
+
+}
+
+.container+div>p:nth-child(1){
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+input{
+   padding-right: 990px;
+   padding-top: 5px;
+   padding-bottom: 5px;
+   border-radius: 4px;
+   border: 1px solid black;
+}
+#ck{
+    margin-bottom: 20px;
+}
+button{
+   margin-top: 25px;
+   padding: 10px 10px;
+   background-color: #5cb85c;
+   color: white;
+   border: none;
+}
+
+.container+div>p:last-child{
+    margin-top: 7px;
+    color: #337ab7;
+}
+form~p{
+    margin-top: 20px;
+    color: #337ab7;
+}
+.container+div~p{
+    margin-left: 100px;
+    margin-top: 70px;
+    font-size: 20px;
+}
+.container+div~p+ul{
+    margin-top: 10px;
+    margin-left: 150px;
+    color: #337ac7;
+}
